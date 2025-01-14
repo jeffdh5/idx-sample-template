@@ -1,6 +1,6 @@
 {
-  "name": "Minimal Template",
-  "description": "A hello world app",
+  "name": "GeminiChat",
+  "description": "An application to chat with Gemini",
   "icon": "https://www.gstatic.com/images/branding/productlogos/idx/v1/192px.svg",
   "params": [
     {
