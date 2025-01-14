@@ -4,14 +4,17 @@
   "icon": "https://www.gstatic.com/images/branding/productlogos/idx/v1/192px.svg",
   "params": [
     {
-      "id": "language",
-      "name": "Programming Language",
-      "type": "enum",
-      "default": "ts",
-      "options": {
-        "js": "JavaScript",
-        "ts": "TypeScript"
-      },
+      "id": "firebaseConfig",
+      "name": "Firebase Config",
+      "type": "json",
+      "description": "Please provide your Firebase config JSON object. You can find it in your Firebase project settings.",
+      "required": true
+    },
+    {
+      "id": "googleAIAPIKey",
+      "name": "Google AI API Key",
+      "type": "string",
+      "description": "Please provide your Google AI API key.",
       "required": true
     }
   ]
