@@ -1,0 +1,17 @@
+{
+  "name": "Minimal Template",
+  "description": "A minimal template to test .env file generation",
+  "parameters": {
+    "ENV_VAR1": {
+      "type": "string",
+      "label": "Environment Variable 1",
+      "default": "default1"
+    },
+    "ENV_VAR2": {
+      "type": "string",
+      "label": "Environment Variable 2",
+      "default": "default2"
+    }
+  }
+}
+
