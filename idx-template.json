@@ -1,7 +1,8 @@
 {
   "name": "Minimal Template",
   "description": "A minimal template to test .env file generation",
-  "parameters": {
+  "icon": "https://www.gstatic.com/images/branding/productlogos/idx/v1/192px.svg",
+  "params": {
     "ENV_VAR1": {
       "type": "string",
       "label": "Environment Variable 1",
