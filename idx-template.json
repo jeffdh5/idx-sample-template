@@ -1,20 +1,18 @@
 {
   "name": "Minimal Template",
-  "description": "A minimal template to test .env file generation",
+  "description": "A hello world app",
   "icon": "https://www.gstatic.com/images/branding/productlogos/idx/v1/192px.svg",
   "params": [
     {
-      "name": "ENV_VAR1",
-      "type": "string",
-      "label": "Environment Variable 1",
-      "default": "default1"
-    },
-    {
-      "name": "ENV_VAR2",
-      "type": "string",
-      "label": "Environment Variable 2",
-      "default": "default2"
+      "id": "language",
+      "name": "Programming Language",
+      "type": "enum",
+      "default": "ts",
+      "options": {
+        "js": "JavaScript",
+        "ts": "TypeScript"
+      },
+      "required": true
     }
   ]
 }
-
