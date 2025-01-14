@@ -1,6 +1,20 @@
 {
-  "name": "Hello world",
-  "description": "A template for a CLI program that prints 'hello world'",
+  "name": "Minimal Template",
+  "description": "A minimal template to test .env file generation",
   "icon": "https://www.gstatic.com/images/branding/productlogos/idx/v1/192px.svg",
-  "params": []
+  "params": [
+    {
+      "name": "ENV_VAR1",
+      "type": "string",
+      "label": "Environment Variable 1",
+      "default": "default1"
+    },
+    {
+      "name": "ENV_VAR2",
+      "type": "string",
+      "label": "Environment Variable 2",
+      "default": "default2"
+    }
+  ]
 }
+
