@@ -4,10 +4,24 @@
   "icon": "https://www.gstatic.com/images/branding/productlogos/idx/v1/192px.svg",
   "params": [
     {
-      "id": "firebaseConfig",
-      "name": "Firebase Config",
-      "type": "json",
-      "description": "Please provide your Firebase config JSON object. You can find it in your Firebase project settings.",
+      "id": "firebaseApiKey",
+      "name": "Firebase API Key",
+      "type": "string",
+      "description": "Please provide your Firebase API key.",
+      "required": true
+    },
+    {
+      "id": "firebaseProjectId",
+      "name": "Firebase Project ID",
+      "type": "string",
+      "description": "Please provide your Firebase Project ID.",
+      "required": true
+    },
+    {
+      "id": "firebaseStorageBucket",
+      "name": "Firebase Storage Bucket",
+      "type": "string",
+      "description": "Please provide your Firebase Storage Bucket.",
       "required": true
     },
     {
